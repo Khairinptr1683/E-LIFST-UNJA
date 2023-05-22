@@ -20,8 +20,6 @@ namespace ProjectAkhir.FORMS
         private void Form3_Load(object sender, EventArgs e)
         {
             container(new Dashboard());
-
-
         }
         
         public void container(object _form)

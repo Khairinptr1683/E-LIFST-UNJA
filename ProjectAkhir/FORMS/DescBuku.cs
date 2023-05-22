@@ -39,5 +39,12 @@ namespace ProjectAkhir.FORMS
             gunaLabelDeskripsi.Text = bookData.Rows[idxDisplayBuku][6].ToString();
 
         }
+
+        private void gunaButton2_Click(object sender, EventArgs e)
+        {
+            FormPeminjaman formPeminjaman = new FormPeminjaman();
+            formPeminjaman.Show();
+            this.Close();
+        }
     }
 }

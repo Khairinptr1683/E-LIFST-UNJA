@@ -20,6 +20,7 @@ namespace ProjectAkhir.FORMS
         int[] idxDisplayBuku = new int[5];
         int htgBtnNext = 0;
         CLASSES.Books book = new CLASSES.Books();
+
         private void Dashboard_Load(object sender, EventArgs e)
         {
             labelNumOfBooks.Text = book.booksList().Rows.Count.ToString();
@@ -166,6 +167,11 @@ namespace ProjectAkhir.FORMS
         }
 
         private void gunaLabelJdlBuku3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelBuku4_Paint(object sender, PaintEventArgs e)
         {
 
         }

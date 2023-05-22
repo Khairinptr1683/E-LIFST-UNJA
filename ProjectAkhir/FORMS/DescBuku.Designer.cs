@@ -30,20 +30,20 @@ namespace ProjectAkhir.FORMS
         private void InitializeComponent()
         {
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
+            this.gunaLabelDeskripsi = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelKategori = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelTahun = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelPenulis = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelJudul = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelKodeBuku = new Guna.UI.WinForms.GunaLabel();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
             this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.pictureBoxDescGbrBuku = new System.Windows.Forms.PictureBox();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelKodeBuku = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelJudul = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelPenulis = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelTahun = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelKategori = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelDeskripsi = new Guna.UI.WinForms.GunaLabel();
+            this.pictureBoxDescGbrBuku = new System.Windows.Forms.PictureBox();
             this.gunaShadowPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDescGbrBuku)).BeginInit();
             this.SuspendLayout();
@@ -75,6 +75,67 @@ namespace ProjectAkhir.FORMS
             this.gunaShadowPanel1.Size = new System.Drawing.Size(956, 572);
             this.gunaShadowPanel1.TabIndex = 19;
             // 
+            // gunaLabelDeskripsi
+            // 
+            this.gunaLabelDeskripsi.AutoSize = true;
+            this.gunaLabelDeskripsi.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelDeskripsi.Location = new System.Drawing.Point(34, 274);
+            this.gunaLabelDeskripsi.MaximumSize = new System.Drawing.Size(900, 500);
+            this.gunaLabelDeskripsi.Name = "gunaLabelDeskripsi";
+            this.gunaLabelDeskripsi.Size = new System.Drawing.Size(91, 15);
+            this.gunaLabelDeskripsi.TabIndex = 16;
+            this.gunaLabelDeskripsi.Text = "Deskripsi Buku";
+            // 
+            // gunaLabelKategori
+            // 
+            this.gunaLabelKategori.AutoSize = true;
+            this.gunaLabelKategori.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelKategori.Location = new System.Drawing.Point(307, 174);
+            this.gunaLabelKategori.Name = "gunaLabelKategori";
+            this.gunaLabelKategori.Size = new System.Drawing.Size(63, 16);
+            this.gunaLabelKategori.TabIndex = 15;
+            this.gunaLabelKategori.Text = "Kategori";
+            // 
+            // gunaLabelTahun
+            // 
+            this.gunaLabelTahun.AutoSize = true;
+            this.gunaLabelTahun.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelTahun.Location = new System.Drawing.Point(336, 145);
+            this.gunaLabelTahun.Name = "gunaLabelTahun";
+            this.gunaLabelTahun.Size = new System.Drawing.Size(48, 16);
+            this.gunaLabelTahun.TabIndex = 14;
+            this.gunaLabelTahun.Text = "Tahun";
+            // 
+            // gunaLabelPenulis
+            // 
+            this.gunaLabelPenulis.AutoSize = true;
+            this.gunaLabelPenulis.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelPenulis.Location = new System.Drawing.Point(307, 117);
+            this.gunaLabelPenulis.Name = "gunaLabelPenulis";
+            this.gunaLabelPenulis.Size = new System.Drawing.Size(55, 16);
+            this.gunaLabelPenulis.TabIndex = 13;
+            this.gunaLabelPenulis.Text = "Penulis";
+            // 
+            // gunaLabelJudul
+            // 
+            this.gunaLabelJudul.AutoSize = true;
+            this.gunaLabelJudul.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelJudul.Location = new System.Drawing.Point(323, 86);
+            this.gunaLabelJudul.Name = "gunaLabelJudul";
+            this.gunaLabelJudul.Size = new System.Drawing.Size(43, 16);
+            this.gunaLabelJudul.TabIndex = 12;
+            this.gunaLabelJudul.Text = "Judul";
+            // 
+            // gunaLabelKodeBuku
+            // 
+            this.gunaLabelKodeBuku.AutoSize = true;
+            this.gunaLabelKodeBuku.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelKodeBuku.Location = new System.Drawing.Point(322, 56);
+            this.gunaLabelKodeBuku.Name = "gunaLabelKodeBuku";
+            this.gunaLabelKodeBuku.Size = new System.Drawing.Size(40, 16);
+            this.gunaLabelKodeBuku.TabIndex = 11;
+            this.gunaLabelKodeBuku.Text = "Kode";
+            // 
             // gunaButton2
             // 
             this.gunaButton2.AnimationHoverSpeed = 0.07F;
@@ -103,6 +164,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton2.Text = "Pinjam Buku";
             this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton2.TextOffsetX = 4;
+            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // gunaLabel6
             // 
@@ -154,15 +216,6 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel1.TabIndex = 5;
             this.gunaLabel1.Text = "Kode Buku:";
             // 
-            // pictureBoxDescGbrBuku
-            // 
-            this.pictureBoxDescGbrBuku.Location = new System.Drawing.Point(37, 33);
-            this.pictureBoxDescGbrBuku.Name = "pictureBoxDescGbrBuku";
-            this.pictureBoxDescGbrBuku.Size = new System.Drawing.Size(162, 185);
-            this.pictureBoxDescGbrBuku.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxDescGbrBuku.TabIndex = 4;
-            this.pictureBoxDescGbrBuku.TabStop = false;
-            // 
             // gunaLabel4
             // 
             this.gunaLabel4.AutoSize = true;
@@ -173,66 +226,14 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel4.TabIndex = 3;
             this.gunaLabel4.Text = "Deskripsi Buku";
             // 
-            // gunaLabelKodeBuku
+            // pictureBoxDescGbrBuku
             // 
-            this.gunaLabelKodeBuku.AutoSize = true;
-            this.gunaLabelKodeBuku.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelKodeBuku.Location = new System.Drawing.Point(322, 56);
-            this.gunaLabelKodeBuku.Name = "gunaLabelKodeBuku";
-            this.gunaLabelKodeBuku.Size = new System.Drawing.Size(40, 16);
-            this.gunaLabelKodeBuku.TabIndex = 11;
-            this.gunaLabelKodeBuku.Text = "Kode";
-            // 
-            // gunaLabelJudul
-            // 
-            this.gunaLabelJudul.AutoSize = true;
-            this.gunaLabelJudul.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelJudul.Location = new System.Drawing.Point(323, 86);
-            this.gunaLabelJudul.Name = "gunaLabelJudul";
-            this.gunaLabelJudul.Size = new System.Drawing.Size(43, 16);
-            this.gunaLabelJudul.TabIndex = 12;
-            this.gunaLabelJudul.Text = "Judul";
-            // 
-            // gunaLabelPenulis
-            // 
-            this.gunaLabelPenulis.AutoSize = true;
-            this.gunaLabelPenulis.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelPenulis.Location = new System.Drawing.Point(307, 117);
-            this.gunaLabelPenulis.Name = "gunaLabelPenulis";
-            this.gunaLabelPenulis.Size = new System.Drawing.Size(55, 16);
-            this.gunaLabelPenulis.TabIndex = 13;
-            this.gunaLabelPenulis.Text = "Penulis";
-            // 
-            // gunaLabelTahun
-            // 
-            this.gunaLabelTahun.AutoSize = true;
-            this.gunaLabelTahun.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelTahun.Location = new System.Drawing.Point(336, 145);
-            this.gunaLabelTahun.Name = "gunaLabelTahun";
-            this.gunaLabelTahun.Size = new System.Drawing.Size(48, 16);
-            this.gunaLabelTahun.TabIndex = 14;
-            this.gunaLabelTahun.Text = "Tahun";
-            // 
-            // gunaLabelKategori
-            // 
-            this.gunaLabelKategori.AutoSize = true;
-            this.gunaLabelKategori.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelKategori.Location = new System.Drawing.Point(307, 174);
-            this.gunaLabelKategori.Name = "gunaLabelKategori";
-            this.gunaLabelKategori.Size = new System.Drawing.Size(63, 16);
-            this.gunaLabelKategori.TabIndex = 15;
-            this.gunaLabelKategori.Text = "Kategori";
-            // 
-            // gunaLabelDeskripsi
-            // 
-            this.gunaLabelDeskripsi.AutoSize = true;
-            this.gunaLabelDeskripsi.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelDeskripsi.Location = new System.Drawing.Point(34, 274);
-            this.gunaLabelDeskripsi.MaximumSize = new System.Drawing.Size(900, 500);
-            this.gunaLabelDeskripsi.Name = "gunaLabelDeskripsi";
-            this.gunaLabelDeskripsi.Size = new System.Drawing.Size(91, 15);
-            this.gunaLabelDeskripsi.TabIndex = 16;
-            this.gunaLabelDeskripsi.Text = "Deskripsi Buku";
+            this.pictureBoxDescGbrBuku.Location = new System.Drawing.Point(37, 33);
+            this.pictureBoxDescGbrBuku.Name = "pictureBoxDescGbrBuku";
+            this.pictureBoxDescGbrBuku.Size = new System.Drawing.Size(162, 185);
+            this.pictureBoxDescGbrBuku.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxDescGbrBuku.TabIndex = 4;
+            this.pictureBoxDescGbrBuku.TabStop = false;
             // 
             // DescBuku
             // 

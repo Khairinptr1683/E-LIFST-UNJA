@@ -16,7 +16,7 @@ namespace ProjectAkhir
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FORMS.Daftar());
+            Application.Run(new FORMS.Utama());
         }
     }
 }

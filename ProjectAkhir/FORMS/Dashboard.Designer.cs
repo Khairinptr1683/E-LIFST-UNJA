@@ -412,6 +412,7 @@ namespace ProjectAkhir.FORMS
             this.panelBuku4.Size = new System.Drawing.Size(111, 152);
             this.panelBuku4.TabIndex = 1;
             this.panelBuku4.Click += new System.EventHandler(this.panelBuku4_Click);
+            this.panelBuku4.Paint += new System.Windows.Forms.PaintEventHandler(this.panelBuku4_Paint);
             // 
             // gunaPictureBoxPrev
             // 
