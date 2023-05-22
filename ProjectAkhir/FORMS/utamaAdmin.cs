@@ -16,5 +16,32 @@ namespace ProjectAkhir.FORMS
         {
             InitializeComponent();
         }
+
+        private void utamaAdmin_Load(object sender, EventArgs e)
+        {
+            container(new dataBuku());
+        }
+
+        public void container(object _form)
+        {
+            if (gunaPanelContainer.Controls.Count > 0) gunaPanelContainer.Controls.Clear();
+
+            Form fm = _form as Form;
+            fm.TopLevel = false;
+            fm.FormBorderStyle = FormBorderStyle.None;
+            fm.Dock = DockStyle.Fill;
+            gunaPanelContainer.Controls.Add(fm);
+            gunaPanelContainer.Tag = fm;
+            fm.Show();
+        }
+
+        private void gunaButton4_Click(object sender, EventArgs e)
+        {
+            container(new inputBuku());
+            gunaButton1.BaseColor = Color.FromArgb(171, 212, 240);
+            gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
+            gunaButton4.BaseColor = Color.FromArgb(53, 92, 148);
+            gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
+        }
     }
 }

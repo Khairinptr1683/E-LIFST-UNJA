@@ -19,13 +19,6 @@ namespace ProjectAkhir.CLASSES
             table = db.getData(query, null);
             return table;
         }
-
-        public DataTable userList()
-        {
-            string query = "SELECT * FROM books";
-            DataTable table = new DataTable();
-            table = db.getData(query, null);
-            return table;
-        }
+        
     }
 }

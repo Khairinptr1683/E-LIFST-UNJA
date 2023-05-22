@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace ProjectAkhir.FORMS
 {
-    public partial class dashboardAdmin : Form
+    public partial class dataBuku : Form
     {
-        public dashboardAdmin()
+        public dataBuku()
         {
             InitializeComponent();
+        }
+        CLASSES.Books books = new CLASSES.Books();
+        private void dataBuku_Load(object sender, EventArgs e)
+        {
+            gunaDataGridViewtblDataBuku.DataSource = books.booksList();
         }
     }
 }
