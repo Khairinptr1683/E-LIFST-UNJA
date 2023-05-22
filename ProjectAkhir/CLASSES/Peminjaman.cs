@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -43,5 +44,14 @@ namespace ProjectAkhir.CLASSES
                 return false;
             }
         }
+
+        public DataTable peminjamanList()
+        {
+            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_peminjaman` FROM `peminjaman`";
+            DataTable table = new DataTable();
+            table = db.getData(query, null);
+            return table;
+        }
+
     }
 }

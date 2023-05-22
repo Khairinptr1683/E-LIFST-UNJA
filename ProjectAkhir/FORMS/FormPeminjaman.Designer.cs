@@ -126,7 +126,7 @@ namespace ProjectAkhir.FORMS
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(193, 324);
+            this.label5.Location = new System.Drawing.Point(196, 324);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(37, 15);
             this.label5.TabIndex = 8;
@@ -142,7 +142,7 @@ namespace ProjectAkhir.FORMS
             this.gunaTextBoxEmail.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaTextBoxEmail.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.gunaTextBoxEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBoxEmail.Location = new System.Drawing.Point(195, 342);
+            this.gunaTextBoxEmail.Location = new System.Drawing.Point(198, 342);
             this.gunaTextBoxEmail.Name = "gunaTextBoxEmail";
             this.gunaTextBoxEmail.PasswordChar = '\0';
             this.gunaTextBoxEmail.Radius = 5;

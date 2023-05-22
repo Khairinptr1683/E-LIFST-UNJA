@@ -40,7 +40,6 @@ namespace ProjectAkhir.FORMS
             container(new Dashboard());
             gunaButton1.BaseColor = Color.FromArgb(53, 92, 148);
             gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
-            gunaButton3.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton4.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
         }
@@ -51,7 +50,6 @@ namespace ProjectAkhir.FORMS
             container(new Buku());
             gunaButton1.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton2.BaseColor = Color.FromArgb(53, 92, 148);
-            gunaButton3.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton4.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
         }
@@ -60,25 +58,24 @@ namespace ProjectAkhir.FORMS
         {
             gunaButton1.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
-            gunaButton3.BaseColor = Color.FromArgb(53, 92, 148);
             gunaButton4.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
         }
 
         private void gunaButton4_Click(object sender, EventArgs e)
         {
+            container(new peminjamanUser());
             gunaButton1.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
-            gunaButton3.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton4.BaseColor = Color.FromArgb(53, 92, 148);
             gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
         }
 
         private void gunaButton5_Click(object sender, EventArgs e)
         {
+            container(new pengembalianUser());
             gunaButton1.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
-            gunaButton3.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton4.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton5.BaseColor = Color.FromArgb(53, 92, 148);
         }

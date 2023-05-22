@@ -92,6 +92,7 @@
   <ItemGroup>
     <Compile Include="CLASSES\Books.cs" />
     <Compile Include="CLASSES\Peminjaman.cs" />
+    <Compile Include="CLASSES\Pengembalian.cs" />
     <Compile Include="FORMS\Buku.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +110,12 @@
     </Compile>
     <Compile Include="FORMS\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\dashboardAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\dashboardAdmin.Designer.cs">
+      <DependentUpon>dashboardAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS\DescBuku.cs">
       <SubType>Form</SubType>
@@ -146,11 +153,29 @@
     <Compile Include="FORMS\notifPinjam.Designer.cs">
       <DependentUpon>notifPinjam.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMS\peminjamanUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\peminjamanUser.Designer.cs">
+      <DependentUpon>peminjamanUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\pengembalianUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\pengembalianUser.Designer.cs">
+      <DependentUpon>pengembalianUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\Utama.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FORMS\Utama.Designer.cs">
       <DependentUpon>Utama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\utamaAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\utamaAdmin.Designer.cs">
+      <DependentUpon>utamaAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -181,6 +206,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\notifPinjam.resx">
       <DependentUpon>notifPinjam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\peminjamanUser.resx">
+      <DependentUpon>peminjamanUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\pengembalianUser.resx">
+      <DependentUpon>pengembalianUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Utama.resx">
       <DependentUpon>Utama.cs</DependentUpon>
@@ -214,6 +245,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logoBiografi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Document.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

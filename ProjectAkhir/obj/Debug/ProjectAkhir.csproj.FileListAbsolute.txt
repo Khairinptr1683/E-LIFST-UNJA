@@ -88,3 +88,5 @@ D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\Proje
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.pdb
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.FormPeminjaman.resources
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.notifPinjam.resources
+D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.peminjamanUser.resources
+D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.pengembalianUser.resources

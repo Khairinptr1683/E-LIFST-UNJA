@@ -117,23 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="gunaButton2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAAMdJREFUOE/VlF0RhCAUhYlgBCMYwQhGsMFG0AYbYSO4DYywEYxgBPYcdF2QO4Iw
-        PvjNnAcZ+OTngiJa6wLpkAmJ5YO8kNKWnBHs4diCoqf5zKOniFPMZaJoz4yMVqKWLYkas3kr+K6W5mMk
-        EWfA0/glaumSKIlLRVxOG8iAOEgi1lUZyANxuMceJSGJnIKUQJ9+6fpHEvFE2PEoXpFSxLuVy0yRVxMJ
-        vCmKupQBtleyQVJeSY6pjcQGjZxdjUjXwg5/XK3DgFJfm3xlGmyKmFYAAAAASUVORK5CYII=
-</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>1. Mahasiswa diharapkan mengembalikan buku sebelum tenggat pengembalian.
+2. Ketika mau mengembalikan buku, harap menunjukkan bukti peminjaman kepada staf perpustakaan FST Universitas Jambi.
+3. Apabila buku dikembalikan lewat dari hari atau tanggal yang telah ditentukan, maka dikenakan denda Rp 1000,- 
+untuk satu buku/hari
+4. Kompensasi keterlambatan hanya berlaku selama 30 hari. Jika tak kunjung dikembalikan maka status keanggotaan akan dicabut.</value>
   </data>
-  <data name="gunaButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABMAAAAVCAYAAACkCdXRAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EwAACxMBAJqcGAAAAMxJREFUOE/tlP0NgjAQxTsCIzACI7CRbKAb6Aa4gW7ACI7gCIxQ32vPhNpr4SLx
-        L3/JS+A+HvQC52p473togsgD6iVlA42HYJFzlJJ1UNxA59BWhvlGWnRQ0EI8zhaeUCutKUh0UmCB9ekc
-        ESjNZytxjryI918z0Mx6tBIzzXbjb2bnp2YjdFroChWpmd3DV/0B4u+VlFEzG6U/AfHi2zE5x8sMq1n4
-        AzgLDavZhUkuQ61gkP4ExLWH3yQdQYCLkTuf6iSssqijZEE69wIHr9BcpEyqqAAAAABJRU5ErkJggg==
-</value>
-  </data>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

@@ -7,22 +7,13 @@ using System.Threading.Tasks;
 
 namespace ProjectAkhir.CLASSES
 {
-    class Books
+    class Pengembalian
     {
         THE_DATABASE.MYDB db = new THE_DATABASE.MYDB();
 
-        // function to return table of books
-        public DataTable booksList()
+        public DataTable pengembalianList()
         {
-            string query = "SELECT * FROM books";
-            DataTable table = new DataTable();
-            table = db.getData(query, null);
-            return table;
-        }
-
-        public DataTable userList()
-        {
-            string query = "SELECT * FROM books";
+            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_pengembalian` FROM `peminjaman`";
             DataTable table = new DataTable();
             table = db.getData(query, null);
             return table;
