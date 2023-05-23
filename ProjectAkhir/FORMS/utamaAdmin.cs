@@ -43,5 +43,14 @@ namespace ProjectAkhir.FORMS
             gunaButton4.BaseColor = Color.FromArgb(53, 92, 148);
             gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
         }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+            container(new dataBuku());
+            gunaButton1.BaseColor = Color.FromArgb(53, 92, 148);
+            gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
+            gunaButton4.BaseColor = Color.FromArgb(171, 212, 240);
+            gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
+        }
     }
 }

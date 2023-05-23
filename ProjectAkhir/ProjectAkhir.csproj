@@ -264,5 +264,11 @@
   <ItemGroup>
     <None Include="Resources\Document.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frame 237659 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uploadCover.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -73,6 +73,16 @@ namespace ProjectAkhir.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Frame_237659__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Frame 237659 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_kesehatan {
             get {
                 object obj = ResourceManager.GetObject("logo-kesehatan", resourceCulture);
@@ -86,6 +96,16 @@ namespace ProjectAkhir.Properties {
         internal static System.Drawing.Bitmap logoBiografi {
             get {
                 object obj = ResourceManager.GetObject("logoBiografi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap uploadCover {
+            get {
+                object obj = ResourceManager.GetObject("uploadCover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
