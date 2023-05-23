@@ -92,4 +92,4 @@ D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\Proje
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.pengembalianUser.resources
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.utamaAdmin.resources
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.dataBuku.resources
-D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.inputBuku.resources
+D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.peminjamanAdmin.resources

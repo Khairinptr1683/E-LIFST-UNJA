@@ -14,8 +14,8 @@ namespace ProjectAkhir.CLASSES
 
         public Boolean addPinjam(string username, string nim, string email, string kode_buku, DateTime tgl_peminjaman, DateTime tgl_pengembalian)
         {
-            string query = "INSERT INTO `peminjaman`(`username`, `nim`, `email`, `kode_buku`, `tgl_peminjaman`, `tgl_pengembalian`) VALUES (@username, @nim, @email, @kode_buku, @tgl_peminjaman, @tgl_pengembalian)";
-            MySqlParameter[] parameters = new MySqlParameter[6];
+            string query = "INSERT INTO `peminjaman`(`username`, `nim`, `email`, `kode_buku`, `tgl_peminjaman`, `tgl_pengembalian`, `status`) VALUES (@username, @nim, @email, @kode_buku, @tgl_peminjaman, @tgl_pengembalian, @sta)";
+            MySqlParameter[] parameters = new MySqlParameter[7];
             
             parameters[0] = new MySqlParameter("@username", MySqlDbType.VarChar);
             parameters[0].Value = username;
@@ -35,6 +35,9 @@ namespace ProjectAkhir.CLASSES
             parameters[5] = new MySqlParameter("@tgl_pengembalian", MySqlDbType.DateTime);
             parameters[5].Value = tgl_pengembalian;
 
+            parameters[6] = new MySqlParameter("@sta", MySqlDbType.VarChar);
+            parameters[6].Value = "Di Proses";
+
             if (db.setData(query, parameters) == 1)
             {
                 return true;
@@ -47,7 +50,7 @@ namespace ProjectAkhir.CLASSES
 
         public DataTable peminjamanList()
         {
-            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_peminjaman` FROM `peminjaman`";
+            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_peminjaman`, `status` FROM `peminjaman`";
             DataTable table = new DataTable();
             table = db.getData(query, null);
             return table;

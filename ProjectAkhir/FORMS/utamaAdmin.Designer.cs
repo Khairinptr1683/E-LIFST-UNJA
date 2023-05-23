@@ -114,6 +114,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton5.Size = new System.Drawing.Size(171, 33);
             this.gunaButton5.TabIndex = 5;
             this.gunaButton5.Text = "Peminjaman";
+            this.gunaButton5.Click += new System.EventHandler(this.gunaButton5_Click);
             // 
             // gunaButton4
             // 

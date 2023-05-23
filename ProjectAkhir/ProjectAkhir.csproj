@@ -141,12 +141,6 @@
     <Compile Include="FORMS\FormPeminjaman.Designer.cs">
       <DependentUpon>FormPeminjaman.cs</DependentUpon>
     </Compile>
-    <Compile Include="FORMS\inputBuku.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FORMS\inputBuku.Designer.cs">
-      <DependentUpon>inputBuku.cs</DependentUpon>
-    </Compile>
     <Compile Include="FORMS\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -158,6 +152,12 @@
     </Compile>
     <Compile Include="FORMS\notifPinjam.Designer.cs">
       <DependentUpon>notifPinjam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\peminjamanAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\peminjamanAdmin.Designer.cs">
+      <DependentUpon>peminjamanAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS\peminjamanUser.cs">
       <SubType>Form</SubType>
@@ -210,14 +210,14 @@
     <EmbeddedResource Include="FORMS\FormPeminjaman.resx">
       <DependentUpon>FormPeminjaman.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FORMS\inputBuku.resx">
-      <DependentUpon>inputBuku.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\notifPinjam.resx">
       <DependentUpon>notifPinjam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\peminjamanAdmin.resx">
+      <DependentUpon>peminjamanAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\peminjamanUser.resx">
       <DependentUpon>peminjamanUser.cs</DependentUpon>
