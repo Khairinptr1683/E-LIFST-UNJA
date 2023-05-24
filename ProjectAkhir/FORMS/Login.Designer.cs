@@ -30,10 +30,10 @@ namespace ProjectAkhir.FORMS
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaTextBoxUsername = new Guna.UI.WinForms.GunaTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.gunaTextBox2 = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaTextBoxPassword = new Guna.UI.WinForms.GunaTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.label4 = new System.Windows.Forms.Label();
@@ -42,23 +42,23 @@ namespace ProjectAkhir.FORMS
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // gunaTextBox1
+            // gunaTextBoxUsername
             // 
-            this.gunaTextBox1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.Silver;
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox1.Location = new System.Drawing.Point(293, 195);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.Radius = 5;
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(224, 31);
-            this.gunaTextBox1.TabIndex = 1;
+            this.gunaTextBoxUsername.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBoxUsername.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBoxUsername.BorderColor = System.Drawing.Color.Silver;
+            this.gunaTextBoxUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBoxUsername.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBoxUsername.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBoxUsername.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBoxUsername.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaTextBoxUsername.Location = new System.Drawing.Point(293, 195);
+            this.gunaTextBoxUsername.Name = "gunaTextBoxUsername";
+            this.gunaTextBoxUsername.PasswordChar = '\0';
+            this.gunaTextBoxUsername.Radius = 5;
+            this.gunaTextBoxUsername.SelectedText = "";
+            this.gunaTextBoxUsername.Size = new System.Drawing.Size(224, 31);
+            this.gunaTextBoxUsername.TabIndex = 1;
             // 
             // label1
             // 
@@ -80,23 +80,23 @@ namespace ProjectAkhir.FORMS
             this.label2.TabIndex = 4;
             this.label2.Text = "Password";
             // 
-            // gunaTextBox2
+            // gunaTextBoxPassword
             // 
-            this.gunaTextBox2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaTextBox2.BaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.BorderColor = System.Drawing.Color.Silver;
-            this.gunaTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox2.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox2.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox2.Location = new System.Drawing.Point(294, 252);
-            this.gunaTextBox2.Name = "gunaTextBox2";
-            this.gunaTextBox2.PasswordChar = '\0';
-            this.gunaTextBox2.Radius = 5;
-            this.gunaTextBox2.SelectedText = "";
-            this.gunaTextBox2.Size = new System.Drawing.Size(224, 31);
-            this.gunaTextBox2.TabIndex = 3;
+            this.gunaTextBoxPassword.BackColor = System.Drawing.Color.Transparent;
+            this.gunaTextBoxPassword.BaseColor = System.Drawing.Color.White;
+            this.gunaTextBoxPassword.BorderColor = System.Drawing.Color.Silver;
+            this.gunaTextBoxPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBoxPassword.FocusedBaseColor = System.Drawing.Color.White;
+            this.gunaTextBoxPassword.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.gunaTextBoxPassword.FocusedForeColor = System.Drawing.SystemColors.ControlText;
+            this.gunaTextBoxPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaTextBoxPassword.Location = new System.Drawing.Point(294, 252);
+            this.gunaTextBoxPassword.Name = "gunaTextBoxPassword";
+            this.gunaTextBoxPassword.PasswordChar = '\0';
+            this.gunaTextBoxPassword.Radius = 5;
+            this.gunaTextBoxPassword.SelectedText = "";
+            this.gunaTextBoxPassword.Size = new System.Drawing.Size(224, 31);
+            this.gunaTextBoxPassword.TabIndex = 3;
             // 
             // label3
             // 
@@ -183,9 +183,9 @@ namespace ProjectAkhir.FORMS
             this.Controls.Add(this.gunaButton1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.gunaTextBox2);
+            this.Controls.Add(this.gunaTextBoxPassword);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.gunaTextBox1);
+            this.Controls.Add(this.gunaTextBoxUsername);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -199,10 +199,10 @@ namespace ProjectAkhir.FORMS
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
+        private Guna.UI.WinForms.GunaTextBox gunaTextBoxUsername;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox2;
+        private Guna.UI.WinForms.GunaTextBox gunaTextBoxPassword;
         private System.Windows.Forms.Label label3;
         private Guna.UI.WinForms.GunaButton gunaButton1;
         private System.Windows.Forms.Label label4;

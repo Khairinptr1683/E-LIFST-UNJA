@@ -86,7 +86,6 @@ namespace ProjectAkhir.FORMS
             }
             else
             {
-                MessageBox.Show("Yaww Stap");
                 htgBtnNext++;
             }
 
@@ -120,7 +119,6 @@ namespace ProjectAkhir.FORMS
             }
             else
             {
-                MessageBox.Show("Yaww Stap");
                 htgBtnNext--;
             }
 

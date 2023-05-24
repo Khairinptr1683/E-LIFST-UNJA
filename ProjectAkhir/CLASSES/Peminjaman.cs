@@ -56,5 +56,13 @@ namespace ProjectAkhir.CLASSES
             return table;
         }
 
+        public DataTable peminjamanListAdmin()
+        {
+            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_peminjaman`, `status` FROM `peminjaman` WHERE `status` = 'Di Proses' OR `status` = 'Di Pinjam'";
+            DataTable table = new DataTable();
+            table = db.getData(query, null);
+            return table;
+        }
+
     }
 }

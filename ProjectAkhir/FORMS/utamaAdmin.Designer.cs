@@ -34,7 +34,6 @@ namespace ProjectAkhir.FORMS
             this.gunaPanelBtn = new Guna.UI.WinForms.GunaPanel();
             this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.gunaPanelBtn.SuspendLayout();
@@ -54,7 +53,6 @@ namespace ProjectAkhir.FORMS
             this.gunaPanelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
             this.gunaPanelBtn.Controls.Add(this.gunaButton3);
             this.gunaPanelBtn.Controls.Add(this.gunaButton5);
-            this.gunaPanelBtn.Controls.Add(this.gunaButton4);
             this.gunaPanelBtn.Controls.Add(this.gunaButton2);
             this.gunaPanelBtn.Controls.Add(this.gunaButton1);
             this.gunaPanelBtn.Dock = System.Windows.Forms.DockStyle.Left;
@@ -77,7 +75,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton3.ForeColor = System.Drawing.Color.White;
             this.gunaButton3.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton3.Image")));
             this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton3.Location = new System.Drawing.Point(13, 223);
+            this.gunaButton3.Location = new System.Drawing.Point(13, 184);
             this.gunaButton3.Name = "gunaButton3";
             this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -88,6 +86,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton3.Size = new System.Drawing.Size(171, 33);
             this.gunaButton3.TabIndex = 6;
             this.gunaButton3.Text = "Pengembalian";
+            this.gunaButton3.Click += new System.EventHandler(this.gunaButton3_Click);
             // 
             // gunaButton5
             // 
@@ -103,7 +102,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton5.ForeColor = System.Drawing.Color.White;
             this.gunaButton5.Image = global::ProjectAkhir.Properties.Resources.Document;
             this.gunaButton5.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton5.Location = new System.Drawing.Point(12, 184);
+            this.gunaButton5.Location = new System.Drawing.Point(12, 145);
             this.gunaButton5.Name = "gunaButton5";
             this.gunaButton5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -115,33 +114,6 @@ namespace ProjectAkhir.FORMS
             this.gunaButton5.TabIndex = 5;
             this.gunaButton5.Text = "Peminjaman";
             this.gunaButton5.Click += new System.EventHandler(this.gunaButton5_Click);
-            // 
-            // gunaButton4
-            // 
-            this.gunaButton4.AnimationHoverSpeed = 0.07F;
-            this.gunaButton4.AnimationSpeed = 0.03F;
-            this.gunaButton4.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton4.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(212)))), ((int)(((byte)(240)))));
-            this.gunaButton4.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gunaButton4.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton4.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton4.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton4.ForeColor = System.Drawing.Color.White;
-            this.gunaButton4.Image = global::ProjectAkhir.Properties.Resources.Document;
-            this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton4.Location = new System.Drawing.Point(12, 145);
-            this.gunaButton4.Name = "gunaButton4";
-            this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton4.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton4.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton4.OnHoverImage = null;
-            this.gunaButton4.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton4.Radius = 2;
-            this.gunaButton4.Size = new System.Drawing.Size(171, 33);
-            this.gunaButton4.TabIndex = 4;
-            this.gunaButton4.Text = "Input Buku";
-            this.gunaButton4.Click += new System.EventHandler(this.gunaButton4_Click);
             // 
             // gunaButton2
             // 
@@ -218,7 +190,6 @@ namespace ProjectAkhir.FORMS
         private Guna.UI.WinForms.GunaPanel gunaPanelContainer;
         private Guna.UI.WinForms.GunaPanel gunaPanelBtn;
         private Guna.UI.WinForms.GunaButton gunaButton5;
-        private Guna.UI.WinForms.GunaButton gunaButton4;
         private Guna.UI.WinForms.GunaButton gunaButton2;
         private Guna.UI.WinForms.GunaButton gunaButton1;
         private Guna.UI.WinForms.GunaButton gunaButton3;

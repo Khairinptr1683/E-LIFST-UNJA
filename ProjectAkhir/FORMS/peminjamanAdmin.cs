@@ -21,7 +21,7 @@ namespace ProjectAkhir.FORMS
         THE_DATABASE.MYDB db = new THE_DATABASE.MYDB();
         private void peminjamanAdmin_Load(object sender, EventArgs e)
         {
-            gunaDataGridViewTblPeminjaman.DataSource = peminjaman.peminjamanList();
+            gunaDataGridViewTblPeminjaman.DataSource = peminjaman.peminjamanListAdmin();
             gunaDataGridViewTblPeminjaman.RowTemplate.Height = 30;
         }
 
@@ -41,25 +41,28 @@ namespace ProjectAkhir.FORMS
                 db.setData(query, parameters); 
 
                 MessageBox.Show("Peminjaman di konfirmasi");
-                gunaDataGridViewTblPeminjaman.DataSource = peminjaman.peminjamanList();
+                gunaDataGridViewTblPeminjaman.DataSource = peminjaman.peminjamanListAdmin();
 
             }
 
             if (gunaDataGridViewTblPeminjaman.Columns[e.ColumnIndex].Name == "pengembalian")
             {
-
-                string query = "UPDATE `peminjaman` SET `status`=@sta WHERE id = @id";
-                MySqlParameter[] parameters = new MySqlParameter[2];
+                string nowString = DateTime.Now.ToString("yyyy-MM-dd");
+                string query = "UPDATE `peminjaman` SET `status`=@sta, `tgl_pengembalian`=@tglKembali WHERE id = @id";
+                MySqlParameter[] parameters = new MySqlParameter[3];
                 parameters[0] = new MySqlParameter("@sta", MySqlDbType.VarChar);
                 parameters[0].Value = "Di Kembalikan";
 
-                parameters[1] = new MySqlParameter("@id", MySqlDbType.Int32);
-                parameters[1].Value = gunaDataGridViewTblPeminjaman.CurrentRow.Cells[2].Value;
+                parameters[1] = new MySqlParameter("@tglKembali", MySqlDbType.VarChar);
+                parameters[1].Value = nowString;
+
+                parameters[2] = new MySqlParameter("@id", MySqlDbType.Int32);
+                parameters[2].Value = gunaDataGridViewTblPeminjaman.CurrentRow.Cells[2].Value;
 
                 db.setData(query, parameters);
 
                 MessageBox.Show("Pengembalian di konfirmasi");
-                gunaDataGridViewTblPeminjaman.DataSource = peminjaman.peminjamanList();
+                gunaDataGridViewTblPeminjaman.DataSource = peminjaman.peminjamanListAdmin();
 
             }
         }

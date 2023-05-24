@@ -39,5 +39,10 @@ namespace ProjectAkhir.FORMS
             }
 
         }
+
+        private void FormPeminjaman_Load(object sender, EventArgs e)
+        {
+            dateTimePickerPengembalian.Value = DateTime.Now.AddDays(7);
+        }
     }
 }

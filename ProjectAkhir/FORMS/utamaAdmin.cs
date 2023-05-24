@@ -39,8 +39,9 @@ namespace ProjectAkhir.FORMS
         {
             gunaButton1.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
-            gunaButton4.BaseColor = Color.FromArgb(53, 92, 148);
             gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
+            gunaButton3.BaseColor = Color.FromArgb(171, 212, 240);
+
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
@@ -48,8 +49,9 @@ namespace ProjectAkhir.FORMS
             container(new dataBuku());
             gunaButton1.BaseColor = Color.FromArgb(53, 92, 148);
             gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
-            gunaButton4.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
+            gunaButton3.BaseColor = Color.FromArgb(171, 212, 240);
+
         }
 
         private void gunaButton5_Click(object sender, EventArgs e)
@@ -57,8 +59,18 @@ namespace ProjectAkhir.FORMS
             container(new peminjamanAdmin());
             gunaButton1.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
-            gunaButton4.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton5.BaseColor = Color.FromArgb(53, 92, 148);
+            gunaButton3.BaseColor = Color.FromArgb(171, 212, 240);
+
+        }
+
+        private void gunaButton3_Click(object sender, EventArgs e)
+        {
+            container(new pengembalianAdmin());
+            gunaButton1.BaseColor = Color.FromArgb(171, 212, 240);
+            gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
+            gunaButton3.BaseColor = Color.FromArgb(53, 92, 148);
+            gunaButton5.BaseColor = Color.FromArgb(171, 212, 240);
         }
     }
 }

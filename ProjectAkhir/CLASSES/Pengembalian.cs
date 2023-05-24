@@ -13,7 +13,7 @@ namespace ProjectAkhir.CLASSES
 
         public DataTable pengembalianList()
         {
-            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_pengembalian` FROM `peminjaman`";
+            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_peminjaman`, `tgl_pengembalian` FROM `peminjaman` WHERE `status` = 'Di Kembalikan'";
             DataTable table = new DataTable();
             table = db.getData(query, null);
             return table;

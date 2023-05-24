@@ -93,6 +93,7 @@
     <Compile Include="CLASSES\Books.cs" />
     <Compile Include="CLASSES\Peminjaman.cs" />
     <Compile Include="CLASSES\Pengembalian.cs" />
+    <Compile Include="CLASSES\User.cs" />
     <Compile Include="FORMS\Buku.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +166,12 @@
     <Compile Include="FORMS\peminjamanUser.Designer.cs">
       <DependentUpon>peminjamanUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORMS\pengembalianAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\pengembalianAdmin.Designer.cs">
+      <DependentUpon>pengembalianAdmin.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORMS\pengembalianUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -221,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\peminjamanUser.resx">
       <DependentUpon>peminjamanUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\pengembalianAdmin.resx">
+      <DependentUpon>pengembalianAdmin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\pengembalianUser.resx">
       <DependentUpon>pengembalianUser.cs</DependentUpon>
