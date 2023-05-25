@@ -92,11 +92,12 @@ namespace ProjectAkhir.FORMS
             this.gunaTextBoxPassword.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gunaTextBoxPassword.Location = new System.Drawing.Point(294, 252);
             this.gunaTextBoxPassword.Name = "gunaTextBoxPassword";
-            this.gunaTextBoxPassword.PasswordChar = '\0';
+            this.gunaTextBoxPassword.PasswordChar = '●';
             this.gunaTextBoxPassword.Radius = 5;
             this.gunaTextBoxPassword.SelectedText = "";
             this.gunaTextBoxPassword.Size = new System.Drawing.Size(224, 31);
             this.gunaTextBoxPassword.TabIndex = 3;
+            this.gunaTextBoxPassword.UseSystemPasswordChar = true;
             // 
             // label3
             // 

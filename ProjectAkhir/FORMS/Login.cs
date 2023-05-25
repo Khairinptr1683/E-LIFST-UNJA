@@ -26,19 +26,31 @@ namespace ProjectAkhir.FORMS
                 string name = gunaTextBoxUsername.Text;
                 string pwd = gunaTextBoxPassword.Text;
                 tableUser = user.checkLogin(name, pwd);
-                
-                if(tableUser.Rows.Count > 0)
+
+                if (gunaTextBoxUsername.Text == "admin" && gunaTextBoxPassword.Text == "admin")
                 {
-                    infologin.userInfo(1, tableUser.Rows[0][1].ToString(), tableUser.Rows[0][2].ToString(), tableUser.Rows[0][3].ToString(), tableUser.Rows[0][4].ToString(), tableUser.Rows[0][5].ToString());
                     this.Hide();
-                    Utama utama = new Utama(tableUser);
-                    utama.ShowDialog();
+                    utamaAdmin utamaadmin = new utamaAdmin();
+                    utamaadmin.ShowDialog();
                     this.Close();
                 }
                 else
                 {
-                    MessageBox.Show("Username atau Password salah ");
+                    if (tableUser.Rows.Count > 0)
+                    {
+                        infologin.userInfo(1, tableUser.Rows[0][1].ToString(), tableUser.Rows[0][2].ToString(), tableUser.Rows[0][3].ToString(), tableUser.Rows[0][4].ToString(), tableUser.Rows[0][5].ToString());
+                        this.Hide();
+                        Utama utama = new Utama(tableUser);
+                        utama.ShowDialog();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Username atau Password salah ");
+                    }
                 }
+                
+                
             }
             catch(Exception ex)
             {
