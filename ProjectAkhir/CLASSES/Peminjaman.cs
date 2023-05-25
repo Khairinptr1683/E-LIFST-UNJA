@@ -12,9 +12,9 @@ namespace ProjectAkhir.CLASSES
     {
         THE_DATABASE.MYDB db = new THE_DATABASE.MYDB();
 
-        public Boolean addPinjam(string username, string nim, string email, string kode_buku, DateTime tgl_peminjaman, DateTime tgl_pengembalian)
+        public Boolean addPinjam(string username, string nim, string email, string kode_buku, DateTime tgl_peminjaman, DateTime batasWkt)
         {
-            string query = "INSERT INTO `peminjaman`(`username`, `nim`, `email`, `kode_buku`, `tgl_peminjaman`, `tgl_pengembalian`, `status`) VALUES (@username, @nim, @email, @kode_buku, @tgl_peminjaman, @tgl_pengembalian, @sta)";
+            string query = "INSERT INTO `peminjaman`(`username`, `nim`, `email`, `kode_buku`, `tgl_peminjaman`, `batas_waktu`, `status`) VALUES (@username, @nim, @email, @kode_buku, @tgl_peminjaman, @batasWkt, @sta)";
             MySqlParameter[] parameters = new MySqlParameter[7];
             
             parameters[0] = new MySqlParameter("@username", MySqlDbType.VarChar);
@@ -32,8 +32,8 @@ namespace ProjectAkhir.CLASSES
             parameters[4] = new MySqlParameter("@tgl_peminjaman", MySqlDbType.DateTime);
             parameters[4].Value = tgl_peminjaman;
 
-            parameters[5] = new MySqlParameter("@tgl_pengembalian", MySqlDbType.DateTime);
-            parameters[5].Value = tgl_pengembalian;
+            parameters[5] = new MySqlParameter("@batasWkt", MySqlDbType.DateTime);
+            parameters[5].Value = batasWkt;
 
             parameters[6] = new MySqlParameter("@sta", MySqlDbType.VarChar);
             parameters[6].Value = "Di Proses";

@@ -31,14 +31,16 @@ namespace ProjectAkhir.FORMS
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gunaDataGridViewTblPengembalian = new Guna.UI.WinForms.GunaDataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gunaDataGridViewTblPengembalian)).BeginInit();
@@ -69,17 +71,18 @@ namespace ProjectAkhir.FORMS
             this.dataGridViewTextBoxColumn2,
             this.Column1,
             this.Column3,
+            this.Column5,
             this.Column2,
             this.Column4});
             this.gunaDataGridViewTblPengembalian.Cursor = System.Windows.Forms.Cursors.Arrow;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.gunaDataGridViewTblPengembalian.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gunaDataGridViewTblPengembalian.DefaultCellStyle = dataGridViewCellStyle4;
             this.gunaDataGridViewTblPengembalian.EnableHeadersVisualStyles = false;
             this.gunaDataGridViewTblPengembalian.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gunaDataGridViewTblPengembalian.Location = new System.Drawing.Point(12, 52);
@@ -87,8 +90,10 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPengembalian.ReadOnly = true;
             this.gunaDataGridViewTblPengembalian.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.gunaDataGridViewTblPengembalian.RowHeadersVisible = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.gunaDataGridViewTblPengembalian.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.gunaDataGridViewTblPengembalian.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.gunaDataGridViewTblPengembalian.RowTemplate.Height = 30;
             this.gunaDataGridViewTblPengembalian.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gunaDataGridViewTblPengembalian.Size = new System.Drawing.Size(1006, 633);
             this.gunaDataGridViewTblPengembalian.TabIndex = 9;
@@ -111,7 +116,7 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Single;
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.Height = 22;
+            this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.Height = 30;
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
@@ -160,6 +165,13 @@ namespace ProjectAkhir.FORMS
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "batas_waktu";
+            this.Column5.HeaderText = "Batas Waktu";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -171,6 +183,8 @@ namespace ProjectAkhir.FORMS
             // Column4
             // 
             this.Column4.DataPropertyName = "terlambat";
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Red;
+            this.Column4.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column4.HeaderText = "Terlambat";
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
@@ -199,6 +213,7 @@ namespace ProjectAkhir.FORMS
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }

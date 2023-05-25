@@ -55,5 +55,13 @@ namespace ProjectAkhir.CLASSES
             table = db.getData(query, parameters);
             return table;
         }
+
+        public DataTable userlogList()
+        {
+            string query = "SELECT * FROM `info_login`";
+            DataTable table = new DataTable();
+            table = db.getData(query, null);
+            return table;
+        }
     }
 }

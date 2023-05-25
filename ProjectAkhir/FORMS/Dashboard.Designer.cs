@@ -34,11 +34,14 @@ namespace ProjectAkhir.FORMS
             this.gunaLinePanel1 = new Guna.UI.WinForms.GunaLinePanel();
             this.label2 = new System.Windows.Forms.Label();
             this.labelNumOfBooks = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gunaLinePanel2 = new Guna.UI.WinForms.GunaLinePanel();
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.gunaLinePanel3 = new Guna.UI.WinForms.GunaLinePanel();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
@@ -48,33 +51,30 @@ namespace ProjectAkhir.FORMS
             this.panelBuku2 = new System.Windows.Forms.Panel();
             this.panelBuku3 = new System.Windows.Forms.Panel();
             this.panelBuku4 = new System.Windows.Forms.Panel();
-            this.gunaLabelJdlBuku0 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelJdlBuku1 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelJdlBuku2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelJdlBuku3 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabelJdlBuku4 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaPictureBoxPrev = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaPictureBoxBtnNext = new Guna.UI.WinForms.GunaPictureBox();
+            this.gunaLabelJdlBuku0 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel12 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelJdlBuku1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelJdlBuku2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel8 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelJdlBuku3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabelJdlBuku4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.gunaLinePanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gunaLinePanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.gunaLinePanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.gunaShadowPanelDisplayBook.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBoxPrev)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBoxBtnNext)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -126,6 +126,16 @@ namespace ProjectAkhir.FORMS
             this.labelNumOfBooks.Text = "6";
             this.labelNumOfBooks.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(55, 36);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // gunaLinePanel2
             // 
             this.gunaLinePanel2.Controls.Add(this.label3);
@@ -151,6 +161,16 @@ namespace ProjectAkhir.FORMS
             this.label3.Size = new System.Drawing.Size(60, 14);
             this.label3.TabIndex = 7;
             this.label3.Text = "Kunjungan";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(58, 36);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 8;
+            this.pictureBox2.TabStop = false;
             // 
             // label4
             // 
@@ -188,6 +208,16 @@ namespace ProjectAkhir.FORMS
             this.label5.Size = new System.Drawing.Size(70, 14);
             this.label5.TabIndex = 10;
             this.label5.Text = "Peminjaman";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(57, 36);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(23, 22);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
             // 
             // label6
             // 
@@ -299,6 +329,7 @@ namespace ProjectAkhir.FORMS
             this.panelBuku0.Size = new System.Drawing.Size(111, 152);
             this.panelBuku0.TabIndex = 3;
             this.panelBuku0.Click += new System.EventHandler(this.panelBuku0_Click);
+            this.panelBuku0.Paint += new System.Windows.Forms.PaintEventHandler(this.panelBuku0_Paint);
             // 
             // panelBuku1
             // 
@@ -345,73 +376,6 @@ namespace ProjectAkhir.FORMS
             this.panelBuku4.Click += new System.EventHandler(this.panelBuku4_Click);
             this.panelBuku4.Paint += new System.Windows.Forms.PaintEventHandler(this.panelBuku4_Paint);
             // 
-            // gunaLabelJdlBuku0
-            // 
-            this.gunaLabelJdlBuku0.AutoSize = true;
-            this.gunaLabelJdlBuku0.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelJdlBuku0.Location = new System.Drawing.Point(810, 236);
-            this.gunaLabelJdlBuku0.MaximumSize = new System.Drawing.Size(117, 40);
-            this.gunaLabelJdlBuku0.Name = "gunaLabelJdlBuku0";
-            this.gunaLabelJdlBuku0.Size = new System.Drawing.Size(89, 16);
-            this.gunaLabelJdlBuku0.TabIndex = 19;
-            this.gunaLabelJdlBuku0.Text = "Kimia Umum";
-            // 
-            // gunaLabelJdlBuku1
-            // 
-            this.gunaLabelJdlBuku1.AutoSize = true;
-            this.gunaLabelJdlBuku1.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelJdlBuku1.Location = new System.Drawing.Point(625, 236);
-            this.gunaLabelJdlBuku1.MaximumSize = new System.Drawing.Size(117, 40);
-            this.gunaLabelJdlBuku1.Name = "gunaLabelJdlBuku1";
-            this.gunaLabelJdlBuku1.Size = new System.Drawing.Size(89, 16);
-            this.gunaLabelJdlBuku1.TabIndex = 15;
-            this.gunaLabelJdlBuku1.Text = "Kimia Umum";
-            // 
-            // gunaLabelJdlBuku2
-            // 
-            this.gunaLabelJdlBuku2.AutoSize = true;
-            this.gunaLabelJdlBuku2.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelJdlBuku2.Location = new System.Drawing.Point(440, 236);
-            this.gunaLabelJdlBuku2.MaximumSize = new System.Drawing.Size(117, 40);
-            this.gunaLabelJdlBuku2.Name = "gunaLabelJdlBuku2";
-            this.gunaLabelJdlBuku2.Size = new System.Drawing.Size(89, 16);
-            this.gunaLabelJdlBuku2.TabIndex = 11;
-            this.gunaLabelJdlBuku2.Text = "Kimia Umum";
-            // 
-            // gunaLabelJdlBuku3
-            // 
-            this.gunaLabelJdlBuku3.AutoSize = true;
-            this.gunaLabelJdlBuku3.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelJdlBuku3.Location = new System.Drawing.Point(255, 236);
-            this.gunaLabelJdlBuku3.MaximumSize = new System.Drawing.Size(117, 40);
-            this.gunaLabelJdlBuku3.Name = "gunaLabelJdlBuku3";
-            this.gunaLabelJdlBuku3.Size = new System.Drawing.Size(89, 16);
-            this.gunaLabelJdlBuku3.TabIndex = 7;
-            this.gunaLabelJdlBuku3.Text = "Kimia Umum";
-            this.gunaLabelJdlBuku3.Click += new System.EventHandler(this.gunaLabelJdlBuku3_Click);
-            // 
-            // gunaLabelJdlBuku4
-            // 
-            this.gunaLabelJdlBuku4.AutoSize = true;
-            this.gunaLabelJdlBuku4.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabelJdlBuku4.Location = new System.Drawing.Point(70, 236);
-            this.gunaLabelJdlBuku4.MaximumSize = new System.Drawing.Size(117, 40);
-            this.gunaLabelJdlBuku4.Name = "gunaLabelJdlBuku4";
-            this.gunaLabelJdlBuku4.Size = new System.Drawing.Size(117, 16);
-            this.gunaLabelJdlBuku4.TabIndex = 3;
-            this.gunaLabelJdlBuku4.Text = "Kimia Umumssss";
-            this.gunaLabelJdlBuku4.Click += new System.EventHandler(this.gunaLabelJdlBuku4_Click);
-            // 
-            // gunaLabel2
-            // 
-            this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel2.Location = new System.Drawing.Point(16, 19);
-            this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(150, 25);
-            this.gunaLabel2.TabIndex = 0;
-            this.gunaLabel2.Text = "Buku Terbaru";
-            // 
             // gunaPictureBoxPrev
             // 
             this.gunaPictureBoxPrev.BaseColor = System.Drawing.Color.White;
@@ -438,6 +402,17 @@ namespace ProjectAkhir.FORMS
             this.gunaPictureBoxBtnNext.TabStop = false;
             this.gunaPictureBoxBtnNext.Click += new System.EventHandler(this.gunaPictureBoxBtnNext_Click);
             // 
+            // gunaLabelJdlBuku0
+            // 
+            this.gunaLabelJdlBuku0.AutoSize = true;
+            this.gunaLabelJdlBuku0.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelJdlBuku0.Location = new System.Drawing.Point(810, 236);
+            this.gunaLabelJdlBuku0.MaximumSize = new System.Drawing.Size(117, 40);
+            this.gunaLabelJdlBuku0.Name = "gunaLabelJdlBuku0";
+            this.gunaLabelJdlBuku0.Size = new System.Drawing.Size(89, 16);
+            this.gunaLabelJdlBuku0.TabIndex = 19;
+            this.gunaLabelJdlBuku0.Text = "Kimia Umum";
+            // 
             // gunaLabel12
             // 
             this.gunaLabel12.AutoSize = true;
@@ -449,6 +424,17 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel12.Size = new System.Drawing.Size(89, 14);
             this.gunaLabel12.TabIndex = 18;
             this.gunaLabel12.Text = "      22-01-2023";
+            // 
+            // gunaLabelJdlBuku1
+            // 
+            this.gunaLabelJdlBuku1.AutoSize = true;
+            this.gunaLabelJdlBuku1.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelJdlBuku1.Location = new System.Drawing.Point(625, 236);
+            this.gunaLabelJdlBuku1.MaximumSize = new System.Drawing.Size(117, 40);
+            this.gunaLabelJdlBuku1.Name = "gunaLabelJdlBuku1";
+            this.gunaLabelJdlBuku1.Size = new System.Drawing.Size(89, 16);
+            this.gunaLabelJdlBuku1.TabIndex = 15;
+            this.gunaLabelJdlBuku1.Text = "Kimia Umum";
             // 
             // gunaLabel10
             // 
@@ -462,6 +448,17 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel10.TabIndex = 14;
             this.gunaLabel10.Text = "      22-01-2023";
             // 
+            // gunaLabelJdlBuku2
+            // 
+            this.gunaLabelJdlBuku2.AutoSize = true;
+            this.gunaLabelJdlBuku2.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelJdlBuku2.Location = new System.Drawing.Point(440, 236);
+            this.gunaLabelJdlBuku2.MaximumSize = new System.Drawing.Size(117, 40);
+            this.gunaLabelJdlBuku2.Name = "gunaLabelJdlBuku2";
+            this.gunaLabelJdlBuku2.Size = new System.Drawing.Size(89, 16);
+            this.gunaLabelJdlBuku2.TabIndex = 11;
+            this.gunaLabelJdlBuku2.Text = "Kimia Umum";
+            // 
             // gunaLabel8
             // 
             this.gunaLabel8.AutoSize = true;
@@ -473,6 +470,18 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel8.Size = new System.Drawing.Size(89, 14);
             this.gunaLabel8.TabIndex = 10;
             this.gunaLabel8.Text = "      22-01-2023";
+            // 
+            // gunaLabelJdlBuku3
+            // 
+            this.gunaLabelJdlBuku3.AutoSize = true;
+            this.gunaLabelJdlBuku3.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelJdlBuku3.Location = new System.Drawing.Point(255, 236);
+            this.gunaLabelJdlBuku3.MaximumSize = new System.Drawing.Size(117, 40);
+            this.gunaLabelJdlBuku3.Name = "gunaLabelJdlBuku3";
+            this.gunaLabelJdlBuku3.Size = new System.Drawing.Size(89, 16);
+            this.gunaLabelJdlBuku3.TabIndex = 7;
+            this.gunaLabelJdlBuku3.Text = "Kimia Umum";
+            this.gunaLabelJdlBuku3.Click += new System.EventHandler(this.gunaLabelJdlBuku3_Click);
             // 
             // gunaLabel6
             // 
@@ -486,6 +495,18 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel6.TabIndex = 6;
             this.gunaLabel6.Text = "      22-01-2023";
             // 
+            // gunaLabelJdlBuku4
+            // 
+            this.gunaLabelJdlBuku4.AutoSize = true;
+            this.gunaLabelJdlBuku4.Font = new System.Drawing.Font("Inter", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabelJdlBuku4.Location = new System.Drawing.Point(70, 236);
+            this.gunaLabelJdlBuku4.MaximumSize = new System.Drawing.Size(117, 40);
+            this.gunaLabelJdlBuku4.Name = "gunaLabelJdlBuku4";
+            this.gunaLabelJdlBuku4.Size = new System.Drawing.Size(117, 16);
+            this.gunaLabelJdlBuku4.TabIndex = 3;
+            this.gunaLabelJdlBuku4.Text = "Kimia Umumssss";
+            this.gunaLabelJdlBuku4.Click += new System.EventHandler(this.gunaLabelJdlBuku4_Click);
+            // 
             // gunaLabel3
             // 
             this.gunaLabel3.AutoSize = true;
@@ -497,6 +518,16 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel3.Size = new System.Drawing.Size(89, 14);
             this.gunaLabel3.TabIndex = 2;
             this.gunaLabel3.Text = "      22-01-2023";
+            // 
+            // gunaLabel2
+            // 
+            this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel2.Location = new System.Drawing.Point(16, 19);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(150, 25);
+            this.gunaLabel2.TabIndex = 0;
+            this.gunaLabel2.Text = "Buku Terbaru";
             // 
             // gunaButton1
             // 
@@ -525,36 +556,6 @@ namespace ProjectAkhir.FORMS
             this.gunaButton1.TabIndex = 5;
             this.gunaButton1.Text = "Profil Mahasiswa";
             this.gunaButton1.TextOffsetX = 4;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(57, 36);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(23, 22);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(58, 36);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(55, 36);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(24, 24);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // gunaPictureBox1
             // 
@@ -587,17 +588,17 @@ namespace ProjectAkhir.FORMS
             this.Load += new System.EventHandler(this.Dashboard_Load);
             this.gunaLinePanel1.ResumeLayout(false);
             this.gunaLinePanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.gunaLinePanel2.ResumeLayout(false);
             this.gunaLinePanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.gunaLinePanel3.ResumeLayout(false);
             this.gunaLinePanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.gunaShadowPanelDisplayBook.ResumeLayout(false);
             this.gunaShadowPanelDisplayBook.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBoxPrev)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBoxBtnNext)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -13,9 +13,11 @@ namespace ProjectAkhir.FORMS
 {
     public partial class Dashboard : Form
     {
-        public Dashboard()
+        DataTable tableUser = new DataTable();
+        public Dashboard(DataTable tableUser)
         {
             InitializeComponent();
+            this.tableUser = tableUser;
         }
         int[] idxDisplayBuku = new int[5];
         int htgBtnNext = 0;
@@ -170,6 +172,11 @@ namespace ProjectAkhir.FORMS
         }
 
         private void panelBuku4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelBuku0_Paint(object sender, PaintEventArgs e)
         {
 
         }

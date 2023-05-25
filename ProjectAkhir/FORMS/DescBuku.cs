@@ -42,7 +42,7 @@ namespace ProjectAkhir.FORMS
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
-            FormPeminjaman formPeminjaman = new FormPeminjaman();
+            FormPeminjaman formPeminjaman = new FormPeminjaman(gunaLabelKodeBuku.Text);
             formPeminjaman.Show();
             this.Close();
         }

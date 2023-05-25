@@ -58,7 +58,7 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPeminjaman.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Inter", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Inter", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -91,6 +91,7 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPeminjaman.RowHeadersVisible = false;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.gunaDataGridViewTblPeminjaman.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.gunaDataGridViewTblPeminjaman.RowTemplate.Height = 30;
             this.gunaDataGridViewTblPeminjaman.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gunaDataGridViewTblPeminjaman.Size = new System.Drawing.Size(1006, 633);
             this.gunaDataGridViewTblPeminjaman.TabIndex = 7;
@@ -113,7 +114,7 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Single;
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.Height = 22;
+            this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.Height = 30;
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.gunaDataGridViewTblPeminjaman.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gunaDataGridViewTblPeminjaman_CellContentClick);
@@ -182,7 +183,6 @@ namespace ProjectAkhir.FORMS
             // 
             // Column3
             // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.Column3.DataPropertyName = "status";
             this.Column3.HeaderText = "Status";
             this.Column3.Name = "Column3";

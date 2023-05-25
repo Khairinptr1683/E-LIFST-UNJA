@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLASSES\Books.cs" />
+    <Compile Include="CLASSES\infoLogin.cs" />
     <Compile Include="CLASSES\Peminjaman.cs" />
     <Compile Include="CLASSES\Pengembalian.cs" />
     <Compile Include="CLASSES\User.cs" />

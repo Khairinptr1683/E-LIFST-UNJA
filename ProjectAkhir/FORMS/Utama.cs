@@ -12,14 +12,16 @@ namespace ProjectAkhir.FORMS
 {
     public partial class Utama : Form
     {
-        public Utama()
+        DataTable tableUser = new DataTable();
+        public Utama(DataTable tableUser)
         {
             InitializeComponent();
+            this.tableUser = tableUser;
         }
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            container(new Dashboard());
+            container(new Dashboard(tableUser));
         }
         
         public void container(object _form)
@@ -37,7 +39,7 @@ namespace ProjectAkhir.FORMS
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            container(new Dashboard());
+            container(new Dashboard(tableUser));
             gunaButton1.BaseColor = Color.FromArgb(53, 92, 148);
             gunaButton2.BaseColor = Color.FromArgb(171, 212, 240);
             gunaButton4.BaseColor = Color.FromArgb(171, 212, 240);

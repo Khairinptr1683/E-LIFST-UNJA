@@ -71,6 +71,7 @@ namespace ProjectAkhir.FORMS
             this.gunaTextBoxUsername.BaseColor = System.Drawing.Color.White;
             this.gunaTextBoxUsername.BorderColor = System.Drawing.Color.Silver;
             this.gunaTextBoxUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBoxUsername.Enabled = false;
             this.gunaTextBoxUsername.FocusedBaseColor = System.Drawing.Color.White;
             this.gunaTextBoxUsername.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaTextBoxUsername.FocusedForeColor = System.Drawing.SystemColors.ControlText;
@@ -99,6 +100,7 @@ namespace ProjectAkhir.FORMS
             this.gunaTextBoxNIM.BaseColor = System.Drawing.Color.White;
             this.gunaTextBoxNIM.BorderColor = System.Drawing.Color.Silver;
             this.gunaTextBoxNIM.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBoxNIM.Enabled = false;
             this.gunaTextBoxNIM.FocusedBaseColor = System.Drawing.Color.White;
             this.gunaTextBoxNIM.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaTextBoxNIM.FocusedForeColor = System.Drawing.SystemColors.ControlText;
@@ -127,6 +129,7 @@ namespace ProjectAkhir.FORMS
             this.gunaTextBoxEmail.BaseColor = System.Drawing.Color.White;
             this.gunaTextBoxEmail.BorderColor = System.Drawing.Color.Silver;
             this.gunaTextBoxEmail.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBoxEmail.Enabled = false;
             this.gunaTextBoxEmail.FocusedBaseColor = System.Drawing.Color.White;
             this.gunaTextBoxEmail.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaTextBoxEmail.FocusedForeColor = System.Drawing.SystemColors.ControlText;
@@ -155,6 +158,7 @@ namespace ProjectAkhir.FORMS
             this.gunaTextBoxKodeBuku.BaseColor = System.Drawing.Color.White;
             this.gunaTextBoxKodeBuku.BorderColor = System.Drawing.Color.Silver;
             this.gunaTextBoxKodeBuku.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.gunaTextBoxKodeBuku.Enabled = false;
             this.gunaTextBoxKodeBuku.FocusedBaseColor = System.Drawing.Color.White;
             this.gunaTextBoxKodeBuku.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaTextBoxKodeBuku.FocusedForeColor = System.Drawing.SystemColors.ControlText;

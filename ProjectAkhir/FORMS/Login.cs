@@ -16,19 +16,22 @@ namespace ProjectAkhir.FORMS
         {
             InitializeComponent();
         }
+        DataTable tableUser = new DataTable();
         CLASSES.User user = new CLASSES.User();
+        CLASSES.infoLogin infologin = new CLASSES.infoLogin();
         private void gunaButton1_Click(object sender, EventArgs e)
         {
             try
             {
                 string name = gunaTextBoxUsername.Text;
                 string pwd = gunaTextBoxPassword.Text;
-                DataTable tableUser = user.checkLogin(name, pwd);
+                tableUser = user.checkLogin(name, pwd);
                 
                 if(tableUser.Rows.Count > 0)
                 {
+                    infologin.userInfo(1, tableUser.Rows[0][1].ToString(), tableUser.Rows[0][2].ToString(), tableUser.Rows[0][3].ToString(), tableUser.Rows[0][4].ToString(), tableUser.Rows[0][5].ToString());
                     this.Hide();
-                    Utama utama = new Utama();
+                    Utama utama = new Utama(tableUser);
                     utama.ShowDialog();
                     this.Close();
                 }
