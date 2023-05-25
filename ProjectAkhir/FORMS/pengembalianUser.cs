@@ -19,7 +19,7 @@ namespace ProjectAkhir.FORMS
         CLASSES.Pengembalian pengembalian = new CLASSES.Pengembalian();
         private void pengembalianUser_Load(object sender, EventArgs e)
         {
-            gunaDataGridViewTblPengembalian.DataSource = pengembalian.pengembalianList();
+            gunaDataGridViewTblPengembalian.DataSource = pengembalian.pengembalianListUser();
         }
     }
 }

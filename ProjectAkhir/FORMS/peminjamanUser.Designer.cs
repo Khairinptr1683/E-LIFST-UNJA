@@ -42,6 +42,7 @@ namespace ProjectAkhir.FORMS
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.gunaDataGridViewTblPeminjaman)).BeginInit();
             this.SuspendLayout();
@@ -103,6 +104,7 @@ namespace ProjectAkhir.FORMS
             this.dataGridViewTextBoxColumn2,
             this.Column1,
             this.Column2,
+            this.Column4,
             this.Column3});
             this.gunaDataGridViewTblPeminjaman.Cursor = System.Windows.Forms.Cursors.Arrow;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -122,6 +124,7 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPeminjaman.RowHeadersVisible = false;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.gunaDataGridViewTblPeminjaman.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.gunaDataGridViewTblPeminjaman.RowTemplate.Height = 28;
             this.gunaDataGridViewTblPeminjaman.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gunaDataGridViewTblPeminjaman.Size = new System.Drawing.Size(1006, 299);
             this.gunaDataGridViewTblPeminjaman.TabIndex = 5;
@@ -144,7 +147,7 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Single;
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.Height = 22;
+            this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.Height = 28;
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gunaDataGridViewTblPeminjaman.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
@@ -183,6 +186,13 @@ namespace ProjectAkhir.FORMS
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "batas_waktu";
+            this.Column4.HeaderText = "Batas Waktu";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -219,6 +229,7 @@ namespace ProjectAkhir.FORMS
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
     }
 }

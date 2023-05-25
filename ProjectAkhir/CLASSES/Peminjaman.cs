@@ -50,7 +50,7 @@ namespace ProjectAkhir.CLASSES
 
         public DataTable peminjamanList()
         {
-            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_peminjaman`, `status` FROM `peminjaman`";
+            string query = "SELECT `id`, `username`, `kode_buku`, `tgl_peminjaman`, `status`, `batas_waktu` FROM `peminjaman`";
             DataTable table = new DataTable();
             table = db.getData(query, null);
             return table;
