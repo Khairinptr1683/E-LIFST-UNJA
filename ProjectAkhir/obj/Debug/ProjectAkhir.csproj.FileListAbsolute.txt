@@ -76,8 +76,6 @@ D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\Proje
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.Daftar.resources
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.Dashboard.resources
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.DescBuku.resources
-D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.Form1.resources
-D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.Form2.resources
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.Login.resources
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.FORMS.Utama.resources
 D:\Kuliah\Semester 4\pemrogramanVisual\E-LIFST-UNJA\ProjectAkhir\obj\Debug\ProjectAkhir.Properties.Resources.resources

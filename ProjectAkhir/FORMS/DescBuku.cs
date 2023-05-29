@@ -37,7 +37,6 @@ namespace ProjectAkhir.FORMS
             gunaLabelTahun.Text = bookData.Rows[idxDisplayBuku][4].ToString();
             gunaLabelKategori.Text = bookData.Rows[idxDisplayBuku][5].ToString();
             gunaLabelDeskripsi.Text = bookData.Rows[idxDisplayBuku][6].ToString();
-
         }
 
         private void gunaButton2_Click(object sender, EventArgs e)

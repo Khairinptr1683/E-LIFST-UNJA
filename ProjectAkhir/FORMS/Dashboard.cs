@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,9 +23,24 @@ namespace ProjectAkhir.FORMS
         int[] idxDisplayBuku = new int[5];
         int htgBtnNext = 0;
         CLASSES.Books book = new CLASSES.Books();
+        THE_DATABASE.MYDB db = new THE_DATABASE.MYDB();
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
+            string queryCariUser = "SELECT `username` FROM `info_login`";
+            DataTable tableUsr = new DataTable();
+            tableUsr = db.getData(queryCariUser, null);
+
+            string query = "SELECT `id`, `kode_buku`, `username`, `tgl_peminjaman`, `batas_waktu`, `status` FROM `peminjaman` WHERE `username` = @usrName AND `status` <> 'Di Kembalikan'";
+            MySqlParameter[] parameters = new MySqlParameter[1];
+            parameters[0] = new MySqlParameter("@usrName", MySqlDbType.VarChar);
+            parameters[0].Value = tableUsr.Rows[0][0].ToString();
+
+            DataTable table = new DataTable();
+            table = db.getData(query, parameters);
+            labelJmlPeminjaman.Text = table.Rows.Count.ToString() + " Buku";
+
+
             labelNumOfBooks.Text = book.booksList().Rows.Count.ToString();
             DataTable bookData = book.booksList();
             byte[] img;

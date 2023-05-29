@@ -66,7 +66,7 @@ namespace ProjectAkhir.FORMS
 
             if (books.editBook(idBuku, kode_buku, judul_buku, penulis, tahun_terbit, kategori, deskripsi, cover))
             {
-                MessageBox.Show("Member Edited Succesfully", "Edit Member", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Book Edited Succesfully", "Edit Member", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 gunaDataGridViewtblDataBuku.DataSource = books.booksList();
             }
         }
@@ -82,7 +82,7 @@ namespace ProjectAkhir.FORMS
                 }
                 else
                 {
-                    MessageBox.Show("Member not Deleted", "Delete-Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Book not Deleted", "Delete-Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
@@ -106,7 +106,7 @@ namespace ProjectAkhir.FORMS
 
             if (books.addBooks(kode_buku, judul_buku, penulis, tahun_terbit, kategori, deskripsi, cover))
             {
-                MessageBox.Show("Member Edited Succesfully", "Edit Member", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Buku Berhasil ditambahkan", "Add Book", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 gunaDataGridViewtblDataBuku.DataSource = books.booksList();
             }
         }

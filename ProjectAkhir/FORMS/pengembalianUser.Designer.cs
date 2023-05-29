@@ -37,8 +37,6 @@ namespace ProjectAkhir.FORMS
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label3 = new System.Windows.Forms.Label();
             this.gunaDataGridViewTblPengembalian = new Guna.UI.WinForms.GunaDataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -46,6 +44,8 @@ namespace ProjectAkhir.FORMS
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gunaDataGridViewTblPengembalian)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,7 +63,6 @@ namespace ProjectAkhir.FORMS
             // 
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaDataGridViewTblPengembalian.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.gunaDataGridViewTblPengembalian.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.gunaDataGridViewTblPengembalian.BackgroundColor = System.Drawing.Color.White;
@@ -89,7 +88,7 @@ namespace ProjectAkhir.FORMS
             this.Column7});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
@@ -136,28 +135,6 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(123)))), ((int)(((byte)(177)))));
-            this.label1.Location = new System.Drawing.Point(344, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(344, 25);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "RIWAYAT PENGEMBALIAN BUKU";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(123)))), ((int)(((byte)(177)))));
-            this.label4.Location = new System.Drawing.Point(354, 429);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(322, 25);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "ALUR PENGEMBALIAN BUKU : \n";
-            // 
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
@@ -201,6 +178,28 @@ namespace ProjectAkhir.FORMS
             this.Column7.DataPropertyName = "terlambat";
             this.Column7.HeaderText = "Terlambat";
             this.Column7.Name = "Column7";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(123)))), ((int)(((byte)(177)))));
+            this.label1.Location = new System.Drawing.Point(344, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(344, 25);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "RIWAYAT PENGEMBALIAN BUKU";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(123)))), ((int)(((byte)(177)))));
+            this.label4.Location = new System.Drawing.Point(354, 429);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(322, 25);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "ALUR PENGEMBALIAN BUKU : \n";
             // 
             // pengembalianUser
             // 

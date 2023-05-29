@@ -140,6 +140,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton2.Size = new System.Drawing.Size(171, 33);
             this.gunaButton2.TabIndex = 2;
             this.gunaButton2.Text = "Buku";
+            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // gunaButton1
             // 
