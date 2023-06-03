@@ -64,7 +64,6 @@ namespace ProjectAkhir.FORMS
             this.gunaButtonTeknologi = new Guna.UI.WinForms.GunaButton();
             this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton7 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton9 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton11 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton13 = new Guna.UI.WinForms.GunaButton();
             this.gunaShadowPanelDisplayBook = new Guna.UI.WinForms.GunaShadowPanel();
@@ -153,9 +152,9 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel15.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel15.Location = new System.Drawing.Point(91, 50);
             this.gunaLabel15.Name = "gunaLabel15";
-            this.gunaLabel15.Size = new System.Drawing.Size(21, 15);
+            this.gunaLabel15.Size = new System.Drawing.Size(20, 15);
             this.gunaLabel15.TabIndex = 26;
-            this.gunaLabel15.Text = "57";
+            this.gunaLabel15.Text = "12";
             // 
             // pictureBox2
             // 
@@ -173,9 +172,9 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel14.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel14.Location = new System.Drawing.Point(42, 51);
             this.gunaLabel14.Name = "gunaLabel14";
-            this.gunaLabel14.Size = new System.Drawing.Size(21, 15);
+            this.gunaLabel14.Size = new System.Drawing.Size(14, 15);
             this.gunaLabel14.TabIndex = 24;
-            this.gunaLabel14.Text = "98";
+            this.gunaLabel14.Text = "9";
             // 
             // pictureBox1
             // 
@@ -234,9 +233,9 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel16.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel16.Location = new System.Drawing.Point(91, 50);
             this.gunaLabel16.Name = "gunaLabel16";
-            this.gunaLabel16.Size = new System.Drawing.Size(21, 15);
+            this.gunaLabel16.Size = new System.Drawing.Size(14, 15);
             this.gunaLabel16.TabIndex = 26;
-            this.gunaLabel16.Text = "57";
+            this.gunaLabel16.Text = "5";
             // 
             // pictureBox3
             // 
@@ -256,7 +255,7 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel17.Name = "gunaLabel17";
             this.gunaLabel17.Size = new System.Drawing.Size(21, 15);
             this.gunaLabel17.TabIndex = 24;
-            this.gunaLabel17.Text = "98";
+            this.gunaLabel17.Text = "10";
             // 
             // pictureBox4
             // 
@@ -315,9 +314,9 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel19.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel19.Location = new System.Drawing.Point(91, 50);
             this.gunaLabel19.Name = "gunaLabel19";
-            this.gunaLabel19.Size = new System.Drawing.Size(21, 15);
+            this.gunaLabel19.Size = new System.Drawing.Size(14, 15);
             this.gunaLabel19.TabIndex = 26;
-            this.gunaLabel19.Text = "57";
+            this.gunaLabel19.Text = "7";
             // 
             // pictureBox5
             // 
@@ -337,7 +336,7 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel20.Name = "gunaLabel20";
             this.gunaLabel20.Size = new System.Drawing.Size(21, 15);
             this.gunaLabel20.TabIndex = 24;
-            this.gunaLabel20.Text = "98";
+            this.gunaLabel20.Text = "10";
             // 
             // pictureBox6
             // 
@@ -396,9 +395,9 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel22.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel22.Location = new System.Drawing.Point(91, 50);
             this.gunaLabel22.Name = "gunaLabel22";
-            this.gunaLabel22.Size = new System.Drawing.Size(21, 15);
+            this.gunaLabel22.Size = new System.Drawing.Size(14, 15);
             this.gunaLabel22.TabIndex = 26;
-            this.gunaLabel22.Text = "57";
+            this.gunaLabel22.Text = "9";
             // 
             // pictureBox7
             // 
@@ -418,7 +417,7 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel23.Name = "gunaLabel23";
             this.gunaLabel23.Size = new System.Drawing.Size(21, 15);
             this.gunaLabel23.TabIndex = 24;
-            this.gunaLabel23.Text = "98";
+            this.gunaLabel23.Text = "10";
             // 
             // pictureBox8
             // 
@@ -436,9 +435,9 @@ namespace ProjectAkhir.FORMS
             this.gunaLabel24.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel24.Location = new System.Drawing.Point(16, 14);
             this.gunaLabel24.Name = "gunaLabel24";
-            this.gunaLabel24.Size = new System.Drawing.Size(50, 15);
+            this.gunaLabel24.Size = new System.Drawing.Size(45, 15);
             this.gunaLabel24.TabIndex = 22;
-            this.gunaLabel24.Text = "Biografi";
+            this.gunaLabel24.Text = "Biologi";
             // 
             // gunaLabel25
             // 
@@ -475,7 +474,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButtonTeknologi.Radius = 5;
             this.gunaButtonTeknologi.Size = new System.Drawing.Size(142, 28);
             this.gunaButtonTeknologi.TabIndex = 29;
-            this.gunaButtonTeknologi.Text = "Teknologi";
+            this.gunaButtonTeknologi.Text = "Sains";
             this.gunaButtonTeknologi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButtonTeknologi.Click += new System.EventHandler(this.gunaButtonTeknologi_Click);
             // 
@@ -494,7 +493,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton5.ForeColor = System.Drawing.Color.Black;
             this.gunaButton5.Image = null;
             this.gunaButton5.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton5.Location = new System.Drawing.Point(189, 217);
+            this.gunaButton5.Location = new System.Drawing.Point(229, 217);
             this.gunaButton5.Name = "gunaButton5";
             this.gunaButton5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton5.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -506,6 +505,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton5.TabIndex = 31;
             this.gunaButton5.Text = "Sejarah";
             this.gunaButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton5.Click += new System.EventHandler(this.gunaButton5_Click);
             // 
             // gunaButton7
             // 
@@ -522,7 +522,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton7.ForeColor = System.Drawing.Color.Black;
             this.gunaButton7.Image = null;
             this.gunaButton7.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton7.Location = new System.Drawing.Point(348, 217);
+            this.gunaButton7.Location = new System.Drawing.Point(428, 217);
             this.gunaButton7.Name = "gunaButton7";
             this.gunaButton7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton7.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -532,36 +532,9 @@ namespace ProjectAkhir.FORMS
             this.gunaButton7.Radius = 5;
             this.gunaButton7.Size = new System.Drawing.Size(142, 28);
             this.gunaButton7.TabIndex = 33;
-            this.gunaButton7.Text = "Biografi";
+            this.gunaButton7.Text = "Biologi";
             this.gunaButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaButton9
-            // 
-            this.gunaButton9.AnimationHoverSpeed = 0.07F;
-            this.gunaButton9.AnimationSpeed = 0.03F;
-            this.gunaButton9.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton9.BaseColor = System.Drawing.SystemColors.Control;
-            this.gunaButton9.BorderColor = System.Drawing.Color.Gray;
-            this.gunaButton9.BorderSize = 1;
-            this.gunaButton9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gunaButton9.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton9.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton9.Font = new System.Drawing.Font("Inter", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton9.ForeColor = System.Drawing.Color.Black;
-            this.gunaButton9.Image = null;
-            this.gunaButton9.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton9.Location = new System.Drawing.Point(510, 217);
-            this.gunaButton9.Name = "gunaButton9";
-            this.gunaButton9.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaButton9.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton9.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton9.OnHoverImage = null;
-            this.gunaButton9.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton9.Radius = 5;
-            this.gunaButton9.Size = new System.Drawing.Size(142, 28);
-            this.gunaButton9.TabIndex = 35;
-            this.gunaButton9.Text = "Jurnal";
-            this.gunaButton9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton7.Click += new System.EventHandler(this.gunaButton7_Click);
             // 
             // gunaButton11
             // 
@@ -578,7 +551,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton11.ForeColor = System.Drawing.Color.Black;
             this.gunaButton11.Image = null;
             this.gunaButton11.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton11.Location = new System.Drawing.Point(669, 217);
+            this.gunaButton11.Location = new System.Drawing.Point(627, 217);
             this.gunaButton11.Name = "gunaButton11";
             this.gunaButton11.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton11.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -590,6 +563,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton11.TabIndex = 37;
             this.gunaButton11.Text = "Skripsi";
             this.gunaButton11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton11.Click += new System.EventHandler(this.gunaButton11_Click);
             // 
             // gunaButton13
             // 
@@ -606,7 +580,7 @@ namespace ProjectAkhir.FORMS
             this.gunaButton13.ForeColor = System.Drawing.Color.Black;
             this.gunaButton13.Image = null;
             this.gunaButton13.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton13.Location = new System.Drawing.Point(829, 217);
+            this.gunaButton13.Location = new System.Drawing.Point(826, 217);
             this.gunaButton13.Name = "gunaButton13";
             this.gunaButton13.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton13.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -616,8 +590,9 @@ namespace ProjectAkhir.FORMS
             this.gunaButton13.Radius = 5;
             this.gunaButton13.Size = new System.Drawing.Size(142, 28);
             this.gunaButton13.TabIndex = 39;
-            this.gunaButton13.Text = "Kamus";
+            this.gunaButton13.Text = "Kesehatan";
             this.gunaButton13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton13.Click += new System.EventHandler(this.gunaButton13_Click);
             // 
             // gunaShadowPanelDisplayBook
             // 
@@ -653,7 +628,7 @@ namespace ProjectAkhir.FORMS
             this.panelBuku0.Name = "panelBuku0";
             this.panelBuku0.Size = new System.Drawing.Size(111, 152);
             this.panelBuku0.TabIndex = 3;
-            this.panelBuku0.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelBuku0_MouseClick);
+            this.panelBuku0.Click += new System.EventHandler(this.panelBuku0_Click);
             // 
             // gunaButtonSemuaBuku
             // 
@@ -680,7 +655,7 @@ namespace ProjectAkhir.FORMS
             this.panelBuku1.Name = "panelBuku1";
             this.panelBuku1.Size = new System.Drawing.Size(111, 152);
             this.panelBuku1.TabIndex = 3;
-            this.panelBuku1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelBuku1_MouseClick);
+            this.panelBuku1.Click += new System.EventHandler(this.panelBuku1_Click);
             // 
             // panelBuku2
             // 
@@ -691,7 +666,7 @@ namespace ProjectAkhir.FORMS
             this.panelBuku2.Name = "panelBuku2";
             this.panelBuku2.Size = new System.Drawing.Size(111, 152);
             this.panelBuku2.TabIndex = 3;
-            this.panelBuku2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelBuku2_MouseClick);
+            this.panelBuku2.Click += new System.EventHandler(this.panelBuku2_Click);
             // 
             // panelBuku3
             // 
@@ -702,7 +677,7 @@ namespace ProjectAkhir.FORMS
             this.panelBuku3.Name = "panelBuku3";
             this.panelBuku3.Size = new System.Drawing.Size(111, 152);
             this.panelBuku3.TabIndex = 2;
-            this.panelBuku3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelBuku3_MouseClick);
+            this.panelBuku3.Click += new System.EventHandler(this.panelBuku3_Click);
             // 
             // panelBuku4
             // 
@@ -713,7 +688,7 @@ namespace ProjectAkhir.FORMS
             this.panelBuku4.Name = "panelBuku4";
             this.panelBuku4.Size = new System.Drawing.Size(111, 152);
             this.panelBuku4.TabIndex = 1;
-            this.panelBuku4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panelBuku4_MouseClick);
+            this.panelBuku4.Click += new System.EventHandler(this.panelBuku4_Click);
             // 
             // gunaLabelJdlBuku0
             // 
@@ -856,7 +831,6 @@ namespace ProjectAkhir.FORMS
             this.Controls.Add(this.gunaShadowPanelDisplayBook);
             this.Controls.Add(this.gunaButton13);
             this.Controls.Add(this.gunaButton11);
-            this.Controls.Add(this.gunaButton9);
             this.Controls.Add(this.gunaButton7);
             this.Controls.Add(this.gunaButton5);
             this.Controls.Add(this.gunaButtonTeknologi);
@@ -932,7 +906,6 @@ namespace ProjectAkhir.FORMS
         private Guna.UI.WinForms.GunaButton gunaButtonTeknologi;
         private Guna.UI.WinForms.GunaButton gunaButton5;
         private Guna.UI.WinForms.GunaButton gunaButton7;
-        private Guna.UI.WinForms.GunaButton gunaButton9;
         private Guna.UI.WinForms.GunaButton gunaButton11;
         private Guna.UI.WinForms.GunaButton gunaButton13;
         private Guna.UI.WinForms.GunaLabel gunaButtonSemuaBuku;

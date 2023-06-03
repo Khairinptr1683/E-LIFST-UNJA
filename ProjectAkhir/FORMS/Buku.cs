@@ -44,13 +44,13 @@ namespace ProjectAkhir.FORMS
             for (int j = 0; j < imageListBooksCovers.Images.Count; j++)
             {
                 listViewBooks.Items.Add(new ListViewItem() { Text = titles[j], ImageIndex = j, SubItems = { j.ToString() } });
-
             }
         }
 
         private void Buku_Load(object sender, EventArgs e)
         {
-            tampilBukuAwal();
+            DataTable bookData = book.booksList();
+            tampilBukuAwal(bookData);
 
             DataTable booksList = book.booksList();
             tampilBuku(booksList);
@@ -75,10 +75,14 @@ namespace ProjectAkhir.FORMS
 
         private void gunaButtonTeknologi_Click(object sender, EventArgs e)
         {
-            gunaLabelJdlKategori.Text = "Teknologi";
-            gunaLabelJdlKategori2.Text = "Teknologi";
+            gunaLabelJdlKategori.Text = "Sains";
+            gunaLabelJdlKategori2.Text = "Sains";
 
+            DataTable bookData = book.booksListAll("SELECT * FROM books WHERE `kategori` = 'Sains'");
+            tampilBukuAwal(bookData);
 
+            //DataTable booksList = book.booksListSejarah();
+            //tampilBuku(booksList);
         }
 
         private void listViewBooks_MouseClick(object sender, MouseEventArgs e)
@@ -101,12 +105,11 @@ namespace ProjectAkhir.FORMS
             gunaLabelJdlBuku4.Text = bookData.Rows[idxDisplayBuku[4]][2].ToString();
         }
 
-        private void tampilBukuAwal()
+        private void tampilBukuAwal(DataTable bookData)
         {
-            DataTable bookData = book.booksList();
             byte[] img;
             MemoryStream ms;
-            int i = book.booksList().Rows.Count - 5;
+            int i = bookData.Rows.Count - 5;
             int j = 0;
             foreach (var control in gunaShadowPanelDisplayBook.Controls)
             {
@@ -124,7 +127,6 @@ namespace ProjectAkhir.FORMS
 
             }
             jdlBukuDashboard();
-
         }
 
         private void panelBuku4_MouseClick(object sender, MouseEventArgs e)
@@ -154,6 +156,72 @@ namespace ProjectAkhir.FORMS
         private void panelBuku0_MouseClick(object sender, MouseEventArgs e)
         {
             DescBuku descBuku = new DescBuku(idxDisplayBuku[0]);
+            descBuku.Show();
+        }
+
+        private void gunaButton5_Click(object sender, EventArgs e)
+        {
+            gunaLabelJdlKategori.Text = "Sejarah";
+            gunaLabelJdlKategori2.Text = "Sejarah";
+
+            DataTable bookData = book.booksListAll("SELECT * FROM books WHERE `kategori` = 'Sejarah'");
+            tampilBukuAwal(bookData);
+        }
+
+        private void gunaButton11_Click(object sender, EventArgs e)
+        {
+            gunaLabelJdlKategori.Text = "Skripsi";
+            gunaLabelJdlKategori2.Text = "Skripsi";
+
+            DataTable bookData = book.booksListAll("SELECT * FROM books WHERE `kategori` = 'Skripsi'");
+            tampilBukuAwal(bookData);
+        }
+
+        private void gunaButton7_Click(object sender, EventArgs e)
+        {
+            gunaLabelJdlKategori.Text = "Biologi";
+            gunaLabelJdlKategori2.Text = "Biologi";
+
+            DataTable bookData = book.booksListAll("SELECT * FROM books WHERE `kategori` = 'Biologi'");
+            tampilBukuAwal(bookData);
+        }
+
+        private void gunaButton13_Click(object sender, EventArgs e)
+        {
+            gunaLabelJdlKategori.Text = "Kesehatan";
+            gunaLabelJdlKategori2.Text = "Kesehatan";
+
+            DataTable bookData = book.booksListAll("SELECT * FROM books WHERE `kategori` = 'Kesehatan'");
+            tampilBukuAwal(bookData);
+        }
+
+        private void panelBuku4_Click(object sender, EventArgs e)
+        {
+            DescBuku descBuku = new DescBuku(idxDisplayBuku[4]);
+            descBuku.Show();
+        }
+
+        private void panelBuku3_Click(object sender, EventArgs e)
+        {
+            DescBuku descBuku = new DescBuku(idxDisplayBuku[3]);
+            descBuku.Show();
+        }
+
+        private void panelBuku2_Click(object sender, EventArgs e)
+        {
+            DescBuku descBuku = new DescBuku(idxDisplayBuku[2]);
+            descBuku.Show();
+        }
+
+        private void panelBuku1_Click(object sender, EventArgs e)
+        {
+            DescBuku descBuku = new DescBuku(idxDisplayBuku[1]);
+            descBuku.Show();
+        }
+
+        private void panelBuku0_Click(object sender, EventArgs e)
+        {
+            DescBuku descBuku = new DescBuku(idxDisplayBuku[1]);
             descBuku.Show();
         }
     }

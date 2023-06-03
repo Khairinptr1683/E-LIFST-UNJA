@@ -39,6 +39,7 @@ namespace ProjectAkhir.FORMS
                     if (tableUser.Rows.Count > 0)
                     {
                         infologin.userInfo(1, tableUser.Rows[0][1].ToString(), tableUser.Rows[0][2].ToString(), tableUser.Rows[0][3].ToString(), tableUser.Rows[0][4].ToString(), tableUser.Rows[0][5].ToString());
+                        
                         this.Hide();
                         Utama utama = new Utama(tableUser);
                         utama.ShowDialog();

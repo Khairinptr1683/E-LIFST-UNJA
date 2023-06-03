@@ -21,6 +21,13 @@ namespace ProjectAkhir.CLASSES
             return table;
         }
 
+        public DataTable booksListAll(string query)
+        {
+            DataTable table = new DataTable();
+            table = db.getData(query, null);
+            return table;
+        }
+
         public Boolean editBook(int id, string fname, string lname, string gender, string phone, string email, string desc, byte[] picture)
         {
             string query = "UPDATE `books` SET `kode_buku`=@fname,`judul_buku`=@lname,`penulis`=@gender,`tahun_terbit`=@phone,`kategori`=@email,`deskripsi`=@desc,`cover`=@picture WHERE id = @id";
