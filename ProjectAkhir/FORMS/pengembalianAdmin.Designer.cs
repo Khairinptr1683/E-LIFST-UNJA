@@ -35,7 +35,7 @@ namespace ProjectAkhir.FORMS
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gunaDataGridViewTblPengembalian = new Guna.UI.WinForms.GunaDataGridView();
-            this.label1 = new System.Windows.Forms.Label();
+            this.kembali = new System.Windows.Forms.DataGridViewButtonColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,6 +43,7 @@ namespace ProjectAkhir.FORMS
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gunaDataGridViewTblPengembalian)).BeginInit();
             this.SuspendLayout();
             // 
@@ -67,6 +68,7 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPengembalian.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.gunaDataGridViewTblPengembalian.ColumnHeadersHeight = 40;
             this.gunaDataGridViewTblPengembalian.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.kembali,
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.Column1,
@@ -119,17 +121,16 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.Height = 30;
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.gunaDataGridViewTblPengembalian.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.gunaDataGridViewTblPengembalian.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gunaDataGridViewTblPengembalian_CellContentClick_1);
             // 
-            // label1
+            // kembali
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(123)))), ((int)(((byte)(177)))));
-            this.label1.Location = new System.Drawing.Point(367, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(303, 25);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Riwayat Pengembalian Buku";
+            this.kembali.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.kembali.HeaderText = "Konfirmasi";
+            this.kembali.Name = "kembali";
+            this.kembali.ReadOnly = true;
+            this.kembali.Text = "Pengembalian";
+            this.kembali.UseColumnTextForButtonValue = true;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -189,6 +190,17 @@ namespace ProjectAkhir.FORMS
             this.Column4.Name = "Column4";
             this.Column4.ReadOnly = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Inter", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(123)))), ((int)(((byte)(177)))));
+            this.label1.Location = new System.Drawing.Point(367, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(303, 25);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Riwayat Pengembalian Buku";
+            // 
             // pengembalianAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -209,6 +221,7 @@ namespace ProjectAkhir.FORMS
 
         private Guna.UI.WinForms.GunaDataGridView gunaDataGridViewTblPengembalian;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridViewButtonColumn kembali;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;

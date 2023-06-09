@@ -35,7 +35,6 @@ namespace ProjectAkhir.FORMS
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gunaDataGridViewTblPeminjaman = new Guna.UI.WinForms.GunaDataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.pengembalian = new System.Windows.Forms.DataGridViewButtonColumn();
             this.aksi = new System.Windows.Forms.DataGridViewButtonColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -66,7 +65,6 @@ namespace ProjectAkhir.FORMS
             this.gunaDataGridViewTblPeminjaman.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.gunaDataGridViewTblPeminjaman.ColumnHeadersHeight = 40;
             this.gunaDataGridViewTblPeminjaman.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.pengembalian,
             this.aksi,
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
@@ -129,14 +127,6 @@ namespace ProjectAkhir.FORMS
             this.label1.Size = new System.Drawing.Size(404, 25);
             this.label1.TabIndex = 6;
             this.label1.Text = "Riwayat Peminjaman Buku Mahasiswa";
-            // 
-            // pengembalian
-            // 
-            this.pengembalian.HeaderText = "Konfirmasi";
-            this.pengembalian.Name = "pengembalian";
-            this.pengembalian.ReadOnly = true;
-            this.pengembalian.Text = "Pengembalian";
-            this.pengembalian.UseColumnTextForButtonValue = true;
             // 
             // aksi
             // 
@@ -208,7 +198,6 @@ namespace ProjectAkhir.FORMS
 
         private Guna.UI.WinForms.GunaDataGridView gunaDataGridViewTblPeminjaman;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridViewButtonColumn pengembalian;
         private System.Windows.Forms.DataGridViewButtonColumn aksi;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
